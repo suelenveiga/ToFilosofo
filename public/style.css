@@ -1,0 +1,470 @@
+a {
+    color: #EADFDF;
+
+}
+
+body {
+    position: relative;
+    width: 9.9%; 
+    background-color: #788490;
+}
+nav.sidebar, #navicon {
+    visibility: hidden;
+}
+nav{
+    position: absolute;
+    width: 100%;
+    height: 10%;
+}
+.home{
+    position: relative;
+    top:4em;
+}
+.bg-dark {
+    background-color:black!important;
+}
+.fixed-top {
+    position: relative;
+    width: 1009%;
+}
+.logo {
+    position: relative;
+    margin: 0 0 0 0;
+    width: 101%;
+    height: 90%;
+}
+.logo img{
+    position: relative;
+    height: 250px;
+    width: 1000%;
+}
+.fundoBranco {
+    background-image: url("https://imagens.climatempo.com.br/img_users/2015/10/9498a151a38a25d475c6a96dd3e7b493/656x0.jpg");
+    background-repeat: no-repeat;
+    background-size:100%;
+    bottom: 0;
+    color: black;
+    overflow: auto;
+    padding: 3em;
+    right: 0;
+    text-align: center;
+    background-size: cover;
+
+    position: relative;
+    top:-3em;
+    left: 50%;
+    width: 900%;
+    height: 1300px;
+    border-style:groove;
+    background-color: #E9E9E9;
+}
+
+.login {
+    position: relative;
+    background-color:white;
+    align-items: center; 
+    top: 10em;
+    left: 400%;
+    border-color: grey;
+    border-style: groove;
+    border-radius: 5px;
+    width: 500%;
+    height: 17em; 
+
+}
+.logado,.naologado   {
+    position: relative;
+    margin: 20px;
+    top: 1em;
+    width: 200px;
+    height: 50px; 
+}
+
+#button {
+    position: relative;
+    top: -3em;
+    left: 75%;
+    width: 100px;
+    height: 40px; 
+}
+h1 {
+    position: relative;
+    text-align: center;
+    font-family: 'Old Standard TT', serif;
+    font-family: 'Lobster Two', cursive;
+}
+.titulo {
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Old Standard TT', serif;
+    font-family: 'Lobster Two', cursive; 
+}
+p {
+    margin: 15px;
+    font-family: 'Old Standard TT', serif;
+    font-family: 'Lobster Two', cursive;
+    font-family: 'Alegreya', serif;
+}
+ul.list-group {
+    position: absolute;
+    width: 20%;
+}
+ul.list-group li{
+    background-color: rgba(23, 21, 21, 0.76);
+    position: relative;
+    top: 10em;
+    height: 5em;
+}
+ul.list-group li {
+    background-color: #002235;
+}
+div.tabela {
+    position: relative;
+    color: black; 
+    left: 35%; 
+    width: 50%;
+    top: -20em;
+}
+div.resolucao {
+    position: absolute;
+    top: 10em;
+    left: 20%;
+    top: 20em;
+    width: 50%;
+    border-color: black;
+    height: 30em;
+}
+div.resolucao strong{
+    position: relative;
+    left: 30%;
+    color: #1A191B;
+    top: 0.4em;
+    font-size: 35px;
+}
+div.resolucao img{
+    position: relative;
+    top:3em;
+}
+div.jogo {
+    position: relative;
+    left: 10%;
+    top: 10em;
+    border-style: double;
+    width: 40em;
+    height: 25em;
+    background: #F4F4F8;
+}
+
+#questao {
+    position: relative;
+    left: 2%;
+}
+#contem{
+    position: relative;
+    color: #20254A;
+    left: -100%;
+    top: 8em;
+    left: 10%;
+    width: 30em;
+    height: 10em;
+    -ms-text-size-adjust: 20px;
+}
+#contem img {
+    position: relative;
+    top:-5em;
+    width: 20em;
+    height: 10em;   
+}
+#contem p{
+    position: relative;
+    top:-5em;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+button {
+    position: relative;
+    width: 40%;
+    height: 80px;
+}
+.tr{ 
+    position: relative;
+    color: white;
+}
+.div-select {
+    width: 300px; 
+    overflow: hidden; 
+    position: relative;
+    top:5em;
+    left: 50%;
+    background-color: black;
+
+}
+#form{
+    position: relative;
+    width: 60%;
+    left: 30%;
+    height: 1000px;
+    top:8em;
+    font-size: 16px;
+    background-color: white;
+    padding: 30px 30px 15px 30px;
+    border: 5px solid #53687E;
+}
+#nickform{
+    position: relative;
+    top:38em;
+    background-color: white;
+    width: 50%;
+    height:30%;
+}
+
+.chat {
+    position: relative;
+    top:8em;    
+    overflow:scroll;
+    background-color: white;
+    width: 50%;
+    height:250px;
+  
+}
+#oculta {
+    display:none;
+}
+
+#ocultaPrompt{
+    display:none;    
+}
+
+.form-style-4 label {
+    display:block;
+    margin-bottom: 10px;
+}
+.form-style-4 label > span{
+    display: inline-block;
+    float: left;
+    width: 150px;
+}
+.form-style-4 input[type=number],
+.form-style-4 input[type=text] 
+{
+    background: transparent;
+    border: none;
+    border-bottom: 1px dashed #83A4C5;
+    width: 275px;
+    outline: none;
+    padding: 0px 0px 0px 0px;
+    font-style: italic;
+}
+
+
+.form-style-4 textarea:focus, 
+.form-style-4 input[type=number]:focus,
+.form-style-4 input[type=number]:focus,
+.form-style-4 input[type=number]:focus
+{
+    border-bottom: 1px dashed #D9FFA9;
+}
+
+.form-style-4 input[type=submit],
+.form-style-4 input[type=button]{
+    background: #576E86;
+    border: none;
+    padding: 8px 10px 8px 10px;
+    border-radius: 5px;
+    color: #A8BACE;
+}
+.form-style-4 input[type=submit]:hover,
+.form-style-4 input[type=button]:hover{
+background: #394D61;
+}
+@media (max-width:994px) {
+    nav {
+        visibility:hidden;
+    }
+
+   *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        list-style-position: inside;
+    }
+   
+    .nav-toggle {
+        display: block;
+        padding: 10px 10px 15px 10px;
+        background: #fff;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        z-index: 50;
+    }
+    .hamburger {
+        width: 1.08em;
+        position: relative;
+        display: inline-block;
+        height: 0.6em;
+        font-size: 1.2em;
+        background: #fff;
+    }
+    .hamburger span {
+        width: 100%;
+        background: #000;
+        display: block;
+        position: absolute;
+        left: 0px;
+        height: 0.185em;
+        border-radius: 1.2px;
+        transition: 0.5s all;
+    }
+    .hamburger span:nth-child(1) {
+        top: 0px;
+    }
+    .hamburger span:nth-child(2) {
+        top: 0.36em;
+    }
+    .hamburger span:nth-child(3) {
+        top: 0.73em;
+    }
+    .sidebar {
+        width: 40%;
+        height: 40%;
+        position: fixed;
+        background: #000;
+        top: 0px;
+        left: 0px;
+        z-index: 5;
+        visibility: hidden;
+        opacity: 0;
+        transition: 0.2s all;
+        -webkit-transition: 0.2s all;
+        -ms-transition: 0.2s all;
+        -moz-transition: 0.2s all;
+        -o-transition: 0.2s all;
+    }
+    #navicon {
+        display: none;
+    }
+    #navicon:checked ~ .sidebar {
+        visibility: visible;
+        opacity: 1;
+    }
+    #navicon:checked ~ .nav-toggle > .hamburger span {
+        top: 0.36em;
+    }
+    #navicon:checked ~ .nav-toggle > .hamburger span:nth-child(1) {
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+    }
+    #navicon:checked ~ .nav-toggle > .hamburger span:nth-child(2) {
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+    }
+    #navicon:checked ~ .nav-toggle > .hamburger span:nth-child(3) {
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+    }
+    .nav-hamburger{
+        position: absolute;
+        top:4em;
+    }
+}
+#quisz {
+    position: relative;
+    left: 20%;
+    top: -3em;
+}
+/*#planeta {
+    position: fixed;
+    top: 4.3em;
+    height: 65%;
+    width: 47%;
+}*/
+div#image {
+    background-image: url('foto/planeta.jpg');
+    background-repeat: no-repeat;
+    background-size:100%;
+    bottom: 0;
+    color: black;
+    left: 0;
+    overflow: auto;
+    padding: 3em;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    background-size: cover;
+    background-color: rgba(111, 149, 245, 0.1);
+
+}
+#B1 {
+    position: relative;
+    background-color: #394D61;
+    width: 101%;
+    height: 15%;
+    left: -0.5%;
+    top: 19.5em;
+}
+div#questao2 {
+    background-image: url('foto/anarquia.jpg');
+    background-repeat: no-repeat;
+    background-size:100%;
+    bottom: 0;
+    color: black;
+    left: 0;
+    overflow: auto;
+    padding: 3em;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    background-size: cover;
+    background-color: rgba(111, 149, 245, 0.1);
+}
+div#questao3 {
+    background-image: url('foto/personal.jpg');
+    background-repeat: no-repeat;
+    background-size:100%;
+    bottom: 0;
+    color: black;
+    left: 0;
+    overflow: auto;
+    padding: 3em;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    background-size: cover;
+    background-color: rgba(111, 149, 245, 0.1);
+}
+div#questao4 {
+    background-image: url('foto/socrates.jpg');
+    background-repeat: no-repeat;
+    background-size:100%;
+    bottom: 0;
+    color: black;
+    left: 0;
+    overflow: auto;
+    padding: 3em;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    background-size: cover;
+    background-color: rgba(111, 149, 245, 0.1);
+}
+#seleciona{
+    position: fixed;
+    top: 8em;
+    left: 5.5%;
+}
